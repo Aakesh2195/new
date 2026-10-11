@@ -1,0 +1,14 @@
+{
+  "name": "scholarstack-student-management-system",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:backend": "npm --prefix backend install",
+    "install:frontend": "npm --prefix frontend install",
+    "dev": "npm --prefix backend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start": "npm --prefix backend start"
+  }
+}
